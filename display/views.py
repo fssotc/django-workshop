@@ -11,4 +11,4 @@ def index(request):
 """    
 # method 2 : 
 def index(request):
-    return render(request,'index.html')
+    return render(request,'display/index.html')
