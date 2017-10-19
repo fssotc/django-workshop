@@ -6,7 +6,6 @@ and follow installing statements
 pip install django
 ### Get Start with Django
 1. django admin startproject project-name
-
-<span style="color:red">some *red* dont name your project test or django</span>.
+	1.2 dont name your project test or django
 
 
