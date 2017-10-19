@@ -43,4 +43,6 @@ def index(request):
 18. cd ..
 19. python manage.py runserver
 20. open browser link 127.0.0.1:8000
+### Result
+![Alt text](/image/image1.png)
 
