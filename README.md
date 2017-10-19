@@ -9,4 +9,12 @@ pip install django
    1. (note) dont name your project test or django
 2. cd project folder
 3. python manage.py startapp  app-name
+4. cd project folder
+5. open setting.py
+7. add the new app in INSTALLED_APPS
+   1. dont messing , at the and of list
+9. open urls.py
+10. import include from django.conf.urls
+11. add ligne in urlpatterns
+   1. url(r'^', include('app-name.urls'),
 
