@@ -11,10 +11,10 @@ pip install django
 3. python manage.py startapp  app-name
 4. cd project folder
 5. open setting.py
-7. add the new app in INSTALLED_APPS
+6. add the new app in INSTALLED_APPS
    1. dont messing , at the and of list
-8. open urls.py
-9. import include from django.conf.urls
-10. add ligne in urlpatterns
+7. open urls.py
+8. import include from django.conf.urls
+9. add ligne in urlpatterns
    1. url(r'^', include('app-name.urls'),
 
