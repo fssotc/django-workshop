@@ -25,9 +25,11 @@ pip install django
 from django.conf.urls import url
 from . import views
 
+```python
 urlpatterns = [
         url(r'^$', views.index, name='index'),
         ]
+```
 
 14. save change
 15. open views.py
