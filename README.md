@@ -22,10 +22,10 @@ pip install django
 12. create new file name urls.py
 13. add the following code to urls.py
 
+```python
 from django.conf.urls import url
 from . import views
 
-```python
 urlpatterns = [
         url(r'^$', views.index, name='index'),
         ]
