@@ -34,8 +34,9 @@ urlpatterns = [
 16. import HttpResponse from django.http
 17. add this function
 
+```python
 def index(request):
     return HttpResponse('hello')
-
+```
 
 
