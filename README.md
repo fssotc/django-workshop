@@ -1,5 +1,5 @@
 # django-workshop
-### Install Django
+### Install python
 [Download python](https://www.python.org/downloads/)
 and follow installing statements
 ### Install Django
