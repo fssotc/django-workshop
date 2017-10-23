@@ -40,6 +40,13 @@ urlpatterns = [
 def index(request):
     return HttpResponse('hello')
 ```
+
+after try
+
+```python
+def index(request):
+    return HttpResponse('<h1>hello</h1>')
+```
 18. cd ..
 19. python manage.py runserver
 20. open browser link 127.0.0.1:8000
