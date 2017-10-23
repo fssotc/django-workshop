@@ -12,7 +12,7 @@ pip install django
 4. cd project folder
 5. open setting.py
 6. add the new app in INSTALLED_APPS
-   1. dont messing , at the and of list
+   1. don't forget , at the end of list
 7. open urls.py
 8. import include from django.conf.urls
 9. add ligne in urlpatterns
